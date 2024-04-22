@@ -1,3 +1,4 @@
+import './styles/EmailContent.css'
 import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png"
 import backArrow from "./assets/icons/back-arrow.png"
 import rateStarButton from "./assets/icons/rate-star-button.png"
