@@ -41,9 +41,18 @@
     height: auto;
     min-height: 40px;
     resize: none;
+    border: none;
 }
 
 .compose footer {
     display: flex;
+    justify-content: space-between;
 }
 
+footer .left-icons {
+    display: flex;
+}
+
+footer .right-icons {
+    display: flex;
+}
