@@ -2,6 +2,7 @@ import EmailActions from './EmailActions'
 import EmailBody from './EmailBody'
 import MainHeader from './MainHeader'
 import Title from './Title'
+import WriteEmails from './WriteEmails'
 
 function Article() {
     return (
@@ -10,6 +11,7 @@ function Article() {
             <MainHeader />
             <EmailBody />
             <EmailActions />
+            <WriteEmails />
         </article>
     )
 }
