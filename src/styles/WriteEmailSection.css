@@ -1,0 +1,58 @@
+.write-email-section {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    height: 30px;
+}
+
+.compose {
+    display: grid;
+    margin-right: 15px;
+    grid-template-rows: 15px auto auto;
+    border: 1px solid rgba(128, 128, 128, 0.444);
+    border-radius: 5px;
+    padding: 5px;
+    gap: 5px;
+}
+
+.compose header {
+    display: flex;
+    gap: 5px;
+    color: grey;
+}
+
+.compose button {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+  
+    border-radius: 0.5rem;
+    border: 1px solid #a1a1a1;
+    background-color: transparent;
+  
+    font-weight: bold;
+}
+
+.compose textarea {
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+    resize: none;
+    border: none;
+}
+
+.compose footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left-icons {
+    display: flex;
+}
+
+footer .right-icons {
+    display: flex;
+}
