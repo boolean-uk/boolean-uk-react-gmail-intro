@@ -6,29 +6,14 @@ import downloadButton from './assets/icons/download-button.png'
 import rateStarButton from './assets/icons/rate-star-button.png'
 import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
 import Header from './Header'
+import LeftBar from './LeftBar'
 
 function App() {
   return (
     <div className="app">
       <Header />
-      
-      <nav className="left-menu">
-        <ul className="inbox-list">
-          <li className="item active">
-            <span className="label">Inbox</span>
-            <span className="count">3</span>
-          </li>
-          <li className="item">
-            <span className="label">Starred</span>
-            <span className="count">2</span>
-          </li>
+      <LeftBar />
 
-          <li className="item toggle">
-            <label htmlFor="hide-read">Hide read</label>
-            <input id="hide-read" type="checkbox" checked={false} />
-          </li>
-        </ul>
-      </nav>
       <main className="email-view">
         <nav className="email-toolbar">
           <ul>
