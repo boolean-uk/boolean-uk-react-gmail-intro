@@ -1,6 +1,7 @@
 import './header.css'
 
-export default function Header() {
+export default function Header(props) {
+  console.log('props', props.searchPlaceHolder)
     return (
         <header className="header">
         <div className="left-menu">
@@ -15,7 +16,7 @@ export default function Header() {
         </div>
 
         <div className="search">
-          <input className="search-bar" placeholder="Search mail" />
+          <input className="search-bar" placeholder={props.searchPlaceHolder} />
         </div>
       </header>
     )
