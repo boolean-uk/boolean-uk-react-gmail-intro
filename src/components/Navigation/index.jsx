@@ -1,6 +1,6 @@
 import NavigationLink from "../NavigationLink"
 import NavigationCheckBox from "../NavigationCheckBox"
-
+import './navigation.css'
 
 export default function Navigation() {
     return(
