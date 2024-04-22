@@ -1,3 +1,5 @@
+import "./styles/WriteEmail.css"
+
 function WriteEmail() {
     return (
         <div className="write-email">
@@ -15,14 +17,14 @@ function WriteEmail() {
                         <button>\/</button>
                     </div>
                     <div className="text-toolbar">
-                        <svg>I</svg>
-                        <svg>I</svg>
-                        <svg>I</svg>
-                        <svg>I</svg>
-                        <svg>I</svg>
-                        <svg>I</svg>
-                        <svg>I</svg>
-                        <svg>I</svg>
+                        <span>I</span>
+                        <span>I</span>
+                        <span>I</span>
+                        <span>I</span>
+                        <span>I</span>
+                        <span>I</span>
+                        <span>I</span>
+                        <span>I</span>
                     </div>
 
                     <div>
