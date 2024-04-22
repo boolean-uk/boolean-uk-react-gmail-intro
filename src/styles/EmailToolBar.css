@@ -1,0 +1,15 @@
+.email-toolbar {
+    padding: 0.5rem 2rem;
+
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+
+    border-bottom: 1px solid #eee;
+}
+
+.email-toolbar > * {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 1rem;
+}
