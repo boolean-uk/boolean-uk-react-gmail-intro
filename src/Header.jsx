@@ -1,7 +1,10 @@
+import './styles/header.css'
+// import './styles/App.css'
+
 export default function Header(){
   return (
     <header className="header">
-      <LeftMenu></LeftMenu>
+      <Logo></Logo>
       <SearchBar></SearchBar>
     </header>
   )
@@ -14,13 +17,12 @@ function SearchBar(){
   )
 }
 
-function LeftMenu(){
+function Logo(){
 return (
   <div className="left-menu">
     <SvgMenuIcon></SvgMenuIcon>
     <LogoImage></LogoImage>
   </div>
-  
 )
 }
 
