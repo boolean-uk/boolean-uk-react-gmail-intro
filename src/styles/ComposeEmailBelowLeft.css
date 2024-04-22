@@ -1,0 +1,8 @@
+.icons-btn > .below > .left {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+}
+
+.icons-btn > .below > .left > svg {
+    align-self: center;
+}

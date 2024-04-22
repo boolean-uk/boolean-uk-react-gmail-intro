@@ -2,6 +2,7 @@ import { EmailContentTitle } from './EmailContentTitle'
 import { EmailContentHeader } from './EmailContentHeader'
 import { EmailContentBody } from './EmailContentBody'
 import { EmailContentActions } from './EmailContentActions'
+import { WriteEmail } from './WriteEmail'
 
 export function EmailContent() {
     return (
@@ -13,6 +14,8 @@ export function EmailContent() {
             <EmailContentBody />
 
             <EmailContentActions />
+
+            <WriteEmail />
         </article>
     )
 }

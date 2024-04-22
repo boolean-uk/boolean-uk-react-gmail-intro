@@ -1,0 +1,10 @@
+.icons-btn > .below > .right {
+    display: grid;
+    grid-template: 
+        'svg svg';
+    align-items: center;
+}
+
+.icons-btn > .below > .right > svg {
+    justify-self: right;
+}

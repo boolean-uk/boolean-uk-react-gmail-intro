@@ -1,0 +1,10 @@
+.write-email {
+    display: grid;
+    grid-template: 
+        'svg compose-email' / 40px 1fr;
+    margin: 0.6rem;
+}
+
+.write-email svg {
+    height: 25px;
+}
