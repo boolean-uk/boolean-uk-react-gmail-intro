@@ -1,0 +1,37 @@
+.write-email{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.compose-email{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+.compose-email>textarea{
+    height: 300px;
+    resize: none;
+}
+
+.send>button{
+    background-color: teal;
+    color: white;
+}
+
+.text-toolbar{
+    gap: 50px;
+}
+
+.write-email> img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: grey;
+}
