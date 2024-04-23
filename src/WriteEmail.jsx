@@ -6,8 +6,6 @@ function WriteEmail() {
             <img className="avatar" src="" alt="Profile Picture" />
             <section className="compose-email">
                 <div className="top-bar">
-                    <svg></svg>
-                    <svg></svg>
                     <span>User Name (username@gmail.com)</span>
                 </div>
                 <textarea></textarea>

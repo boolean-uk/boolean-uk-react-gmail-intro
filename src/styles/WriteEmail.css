@@ -1,7 +1,7 @@
 .write-email{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -23,4 +23,15 @@
 .send>button{
     background-color: teal;
     color: white;
+}
+
+.text-toolbar{
+    gap: 50px;
+}
+
+.write-email> img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: grey;
 }
