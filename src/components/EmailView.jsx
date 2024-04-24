@@ -7,7 +7,6 @@ import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png'
 import '../styles/LeftMenu.css'
 
 import WriteEmail from './WriteEmail'
-
 function EmailView(){
     return (
         <main className="email-view">
