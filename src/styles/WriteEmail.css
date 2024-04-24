@@ -1,0 +1,51 @@
+.write_email{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.1fr 0.9fr;
+    grid-template-areas: "avatar compose";
+}
+
+.avatar{
+    grid-area: avatar;
+    display: grid;
+}
+
+.avatar > img {
+    border-radius: 50%;
+}
+
+.compose {
+    grid-area: compose;
+    width: 80%;
+    border-radius: 0%;
+    display: grid;
+    grid-template-columns: auto;
+    border:  1px solid rgb(200, 197, 197);
+}
+
+.compose > form {
+    display: grid;
+    grid-area: 1;
+    grid-template-columns: auto;
+}
+
+.compose > form > input {
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px soldi whitesmoke;
+    outline: none;
+}
+
+.message {
+    height: 100px;
+}
+
+.submit {
+    background-color: #3079ed !important;
+    text-transform: capitalize !important;
+    margin: 15px !important;
+    padding: 10px;
+    color: white;
+    border: 0px none;
+}
