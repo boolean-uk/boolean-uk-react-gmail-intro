@@ -1,0 +1,8 @@
+.email-content .title {
+    padding: 1rem;
+  }
+  
+  .email-content .title h1 {
+    padding-left: 56px;
+    font-weight: normal;
+  }
