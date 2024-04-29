@@ -1,0 +1,12 @@
+.left-menu {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: left;
+}
+
+.left-menu .menu-icon {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
