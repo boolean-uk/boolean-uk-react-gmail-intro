@@ -1,17 +1,15 @@
+import React from 'react';
 import './styles/EmailView.css';
-import backArrow from '../assets/icons/back-arrow.png';
-import downloadButton from '../assets/icons/download-button.png';
-import rateStarButton from '../assets/icons/rate-star-button.png';
-import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png';
-import flaticonWelcomeImage from '../assets/images/flaticon-welcome-image.png';
+import EmailToolbar from './EmailToolbar';
+import EmailContent from './EmailContent';
 
-function EmailView() {
+const EmailView = () => {
   return (
     <main className="email-view">
-      {/* Email Toolbar */}
-      {/* Email Content */}
+      <EmailToolbar />
+      <EmailContent />
     </main>
   );
-}
+};
 
 export default EmailView;
