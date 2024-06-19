@@ -1,0 +1,54 @@
+.write-email {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.write-email h2 {
+  margin-bottom: 20px;
+}
+
+.write-email .form-group {
+  margin-bottom: 15px;
+}
+
+.write-email label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.write-email input,
+.write-email textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.write-email .form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.write-email .form-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.write-email .form-actions button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+.write-email .form-actions button[type="reset"] {
+  background-color: #f44336;
+  color: white;
+}

@@ -1,10 +1,11 @@
-import './styles/App.css'
-
-import flaticonWelcomeImage from './assets/images/flaticon-welcome-image.png'
-import backArrow from './assets/icons/back-arrow.png'
-import downloadButton from './assets/icons/download-button.png'
-import rateStarButton from './assets/icons/rate-star-button.png'
-import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
+import React from "react";
+import "./styles/App.css";
+import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png";
+import backArrow from "./assets/icons/back-arrow.png";
+import downloadButton from "./assets/icons/download-button.png";
+import rateStarButton from "./assets/icons/rate-star-button.png";
+import rubbishButton from "./assets/icons/rubbish-bin-delete-button.png";
+import WriteEmail from "./components/WriteEmail";
 
 function App() {
   return (
@@ -114,9 +115,10 @@ function App() {
             <button>Forward</button>
           </section>
         </article>
+        <WriteEmail />
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
