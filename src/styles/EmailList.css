@@ -1,0 +1,18 @@
+.email-list {
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    background-color: white;
+    flex: 1;
+  }
+  
+  .email-item {
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .email-item:hover {
+    background-color: #f1f3f4;
+  }
+  
