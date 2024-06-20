@@ -1,0 +1,32 @@
+.sidebar {
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    background-color: #f1f3f4;
+    width: 200px;
+  }
+  
+  .sidebar .inbox-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar .inbox-list .item {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #202124;
+    font-weight: 500;
+  }
+  
+  .sidebar .inbox-list .item.active {
+    background-color: #e8f0fe;
+    color: #1a73e8;
+    font-weight: bold;
+  }
+  
+  .sidebar .inbox-list .item:hover {
+    background-color: #e8f0fe;
+  }
+  

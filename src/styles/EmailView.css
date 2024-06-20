@@ -1,0 +1,32 @@
+.email-view {
+    padding: 20px;
+    background-color: white;
+    flex: 2;
+  }
+  
+  .email-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .email-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #202124;
+  }
+  
+  .email-info p {
+    margin: 0;
+    color: #5f6368;
+  }
+  

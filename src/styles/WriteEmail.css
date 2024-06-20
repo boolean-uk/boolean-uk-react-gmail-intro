@@ -1,0 +1,26 @@
+.write-email {
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .write-email .compose-area {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: none;
+    background-color: #f1f3f4;
+    outline: none;
+  }
+  
+  .write-email .send-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a73e8;
+    color: white;
+    cursor: pointer;
+  }
+  
