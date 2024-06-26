@@ -1,0 +1,39 @@
+.write-email {
+    padding: 1rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .write-email h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .write-email form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .write-email form div {
+    display: grid;
+    gap: 0.5rem;
+  }
+  
+  .write-email form label {
+    font-weight: bold;
+  }
+  
+  .write-email form input,
+  .write-email form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+  }
+  
+  .write-email form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
