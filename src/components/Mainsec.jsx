@@ -1,4 +1,12 @@
-function Mainsection () {
+import '../styles/Mainsec.css'
+import flaticonWelcomeImage from '../assets/images/flaticon-welcome-image.png'
+import backArrow from '../assets/icons/back-arrow.png'
+import downloadButton from '../assets/icons/download-button.png'
+import rateStarButton from '../assets/icons/rate-star-button.png'
+import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png'
+import WriteEmail from './WriteEmail'
+
+function Mainsec () {
     return (
         <main className="email-view">
         <nav className="email-toolbar">
@@ -71,9 +79,10 @@ function Mainsection () {
             <button>Reply</button>
             <button>Forward</button>
           </section>
+          <WriteEmail /> 
         </article>
       </main>
-    ) 
+    )
 }
 
-export default Mainsection
+export default Mainsec 

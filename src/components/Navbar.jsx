@@ -1,4 +1,6 @@
- function Navbar () {
+import '../styles/Navbar.css'
+
+function Navbar () {
     return (
         <nav className="left-menu">
         <ul className="inbox-list">
@@ -18,6 +20,6 @@
         </ul>
       </nav>
     )
- }
+}
 
- export default Navbar
+export default Navbar
