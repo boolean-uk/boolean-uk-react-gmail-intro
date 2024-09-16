@@ -22,7 +22,7 @@ All the source files you need are in the [src](./src) subdirectory.
 
 - Break down `App.jsx` into separate components
 - Break down `App.css` into separate stylesheets
-- Import the relevant stylesheets for each component
+- Import the relevant stylesheets for each componetn
 
 ## Tips
 
