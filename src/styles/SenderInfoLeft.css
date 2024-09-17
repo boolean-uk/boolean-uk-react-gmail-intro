@@ -1,0 +1,6 @@
+.sender-info > .left {
+    display: grid;
+    grid-template: 
+        'svg svg p' / 40px 40px 1fr;
+    align-items: center;
+}

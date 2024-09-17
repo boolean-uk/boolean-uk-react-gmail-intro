@@ -1,0 +1,10 @@
+.compose-email {
+    display: grid;
+    grid-template: 
+        'sender-info' 40px
+        'icons-btn' 100px;
+    gap: 8rem;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+}

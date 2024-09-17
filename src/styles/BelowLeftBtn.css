@@ -1,0 +1,13 @@
+.icons-btn > .below > .left > button {
+    display: grid;
+    grid-template: 
+        'p svg' / 1fr 40px;
+    width: 120px;
+    border: none;
+    background-color: rgb(52, 107, 237);
+    color: white;
+    border-radius: 0.5rem;
+    align-items: center;
+    font-size: 17px;
+    justify-items: center;
+}

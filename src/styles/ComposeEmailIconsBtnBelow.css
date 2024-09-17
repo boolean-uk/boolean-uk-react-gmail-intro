@@ -1,0 +1,5 @@
+.icons-btn > .below {
+    display: grid;
+    grid-template: 
+        'left space right' / minmax(60px, 1fr) 1fr 80px;
+}

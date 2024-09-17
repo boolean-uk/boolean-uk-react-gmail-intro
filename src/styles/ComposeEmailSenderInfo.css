@@ -1,0 +1,5 @@
+.sender-info {
+    display: grid;
+    grid-template: 
+        'left left svg' / minmax(50px, 420px) 1fr 40px;
+}
