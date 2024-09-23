@@ -1,0 +1,53 @@
+.send-email {
+    width: 70%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .send-email-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .send-email-header input {
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .send-email textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .send-email-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .send-email-actions button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .send-email-actions button:hover {
+    background-color: #0056b3;
+  }
