@@ -1,0 +1,12 @@
+
+.email-sender-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+  
+.email-sender-container img {
+    width: 100%;
+    height: auto;
+}
+  
