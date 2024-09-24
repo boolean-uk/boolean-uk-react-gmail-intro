@@ -4,8 +4,28 @@ import backArrow from "../assets/icons/back-arrow.png";
 import rateStarButton from "../assets/icons/rate-star-button.png";
 import rubbishButton from "../assets/icons/rubbish-bin-delete-button.png";
 
+import { useState } from "react";
+import WriteEmail from "./WriteEmail";
+
+
 export function EmailContent() {
+
+    const [isReplying, setIsReplying] = useState(false);
+
+    const handleReplyButton = () => {
+        setIsReplying(true);
+    }
+
+    const handleSend = () => {
+        setIsReplying(false); 
+      };
+
   return (
+    <>
+    {isReplying ? (
+        <WriteEmail onSend={handleSend}/>
+    ) : (
+    
     <article className="email-content">
       <div className="title">
         <h1>Welcome to Flaticon</h1>
@@ -38,10 +58,11 @@ export function EmailContent() {
         </div>
       </section>
       <section className="email-actions">
-            <button>Reply</button>
+            <button onClick={handleReplyButton}>Reply</button>
             <button>Forward</button>
           </section>
     </article>
-    
+    )}
+    </>
   );
 }
