@@ -1,8 +1,8 @@
-import EmailBody  from './EmailBody'
-import EmailActions  from './EmailBody'
-import EmailHeader from './EmailHeader'
+import EmailBody  from './EmailBody';
+import EmailActions  from './EmailActions';
+import EmailHeader from './EmailHeader';
 
-import '.././styles/EmailContent.css'
+import '.././styles/EmailContent.css';
 
 function EmailContent(){
     return (
