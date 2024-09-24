@@ -1,7 +1,7 @@
 import './styles/App.css'
-import Header from './components/Header'
-import LeftMenu from './components/LeftMenu'
-import EmailContent from './components/EmailContent'
+import Header from './components/header'
+import LeftMenu from './components/leftMenu'
+import EmailContent from './components/emailContent'
 
 function App() {
   return (
