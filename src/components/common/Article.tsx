@@ -2,6 +2,7 @@ import React from "react";
 import { flaticonWelcomeImage } from "../..";
 import EmailHeader from "../email/EmailHeader";
 import Button from "../layout/Button";
+import EmailSection from "../email/EmailSection";
 
 const Article = () => {
     return (
@@ -18,6 +19,9 @@ const Article = () => {
           <section className="email-actions">
             <Button buttonText="Reply" />
             <Button buttonText="Forward" />
+          </section>
+          <section>
+            <EmailSection />
           </section>
         </article>
     );

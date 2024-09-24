@@ -2,12 +2,13 @@ import React from "react";
 
 interface ButtonProps {
     buttonText: string
+    classname?: string
 }
 
-const Button = ({ buttonText }: ButtonProps) => {
+const Button = ({ buttonText, classname }: ButtonProps) => {
     return (
         <>
-            <button>{buttonText}</button>
+            <button className={classname}>{buttonText}</button>
         </>
     );
 }
