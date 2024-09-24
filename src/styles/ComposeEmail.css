@@ -1,0 +1,131 @@
+
+  /* Got AI to help formatting the css*/
+  .compose-email {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 500px;
+    max-width: 90%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  
+  .compose-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #404040;
+    color: #fff;
+  }
+  
+  .compose-header .compose-actions {
+    display: flex;
+  }
+  
+  .compose-header .action-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .compose-header .action-btn:hover {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 4px;
+  }
+  
+
+  .compose-recipients {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .recipient-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  
+  .recipient-field label {
+    width: 40px;
+    color: #5f6368;
+  }
+  
+  .recipient-field input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 4px;
+  }
+  
+  
+  .compose-subject {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .compose-subject input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 4px;
+  }
+  
+  
+  .compose-body {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .compose-body textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  
+  .compose-footer {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .send-btn {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .send-btn:hover {
+    background-color: #1558b0;
+  }
+  
+  .discard-btn {
+    background: none;
+    border: none;
+    color: #1a73e8;
+    cursor: pointer;
+  }
+  
+  .discard-btn:hover {
+    text-decoration: underline;
+  }
+  
