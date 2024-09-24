@@ -3,7 +3,7 @@ import NavBar from './components/navbar'
 import EmailContent from './components/email-content'
 import './styles/App.css'
 
-function App() {
+export default function App() {
   return (
     <div className="app">
       <Header />
@@ -12,5 +12,3 @@ function App() {
     </div>
   )
 }
-
-export default App

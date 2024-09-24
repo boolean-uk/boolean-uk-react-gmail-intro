@@ -2,6 +2,7 @@ import EmailActions from './email-actions'
 import EmailBody from './email-body'
 import EmailHeader from './email-header'
 import EmailToolbar from './email-toolbar'
+import EmailReply from './email-reply'
 import "../styles/EmailContent.css"
 
 export default function EmailContent() {
@@ -16,6 +17,7 @@ export default function EmailContent() {
       <EmailHeader />
       <EmailBody />
       <EmailActions />
+      <EmailReply />
     </article>
   </main>
 }
