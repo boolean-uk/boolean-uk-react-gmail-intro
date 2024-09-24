@@ -4,9 +4,79 @@
     justify-content: center;
     margin-top: 1rem;
 }
-  
-.email-sender-container img {
+
+.email-sender-container .email-creator {
+    padding: 5px;
+    border: 1px solid #634c4c;
+    border-radius: 5px;
+    margin: 5px;
+    height: fit-content;
+    width: 50%;
+}
+
+.upper {
+    display: flex;
+}
+
+.email-sender-container .email-creator .left {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20px);
+}
+
+.email-sender-container .email-creator .left .icon-upper {
     width: 100%;
-    height: auto;
+    padding-bottom: 150px;
+}
+
+.email-sender-container .email-creator .right {
+    max-width: 20px;
+}
+
+.icon {
+    height: 20px;
+
+}
+
+
+.email-sender-container .email-creator .middle {
+    padding: 10px;
+    height: 200px;
+    width: 100%;
 }
   
+.email-sender-container .avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background-color: #eee;
+}
+
+.email-actions {
+    height: fit-content;
+}
+  
+.email-actions button {
+    border-radius: 0.5rem;
+    
+    border: 1px solid #a1a1a1;
+    background-color: #0b57d0;
+    font-weight: bold;
+    height: fit-content;
+}
+
+.bottom {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.bottom-right {
+    margin-left: auto;
+}
+
+.bottom .icon {
+    margin-right: 5px;
+    height: 20px;
+    max-height: 20px;
+}
