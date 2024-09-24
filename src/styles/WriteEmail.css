@@ -1,0 +1,69 @@
+.email-write{
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  border-bottom: 1px solid #eee;
+}
+
+
+.email-write{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.email-write-main{
+  border-style: solid;
+  border-width: 1px;
+}
+
+.email-write-header{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  
+}
+
+.email-write-toolbar {
+  padding: 0.5rem 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  border-bottom: 1px solid #eee;
+}
+
+.email-write-toolbar > * {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+.email-write-toolbar-send{
+  width: 60px;
+  background-color: #99ccff;
+}
+
+.email-write-toolbar-arrow{
+  width: 25px;
+  background-color: #99ccff;
+}
+
+.email-write-toolbar-bin{
+  float: left
+}
+
+ul {
+  list-style-type: none
+}
+
+textarea{
+  width: 100%;
+  height: 200px;
+  resize: none;
+  border: none;
+}
