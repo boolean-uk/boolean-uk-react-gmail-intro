@@ -4,6 +4,7 @@ import downloadButton from '../assets/icons/download-button.png'
 import rateStarButton from '../assets/icons/rate-star-button.png'
 import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png'
 import '../styles/EmailContent.css'
+import WriteEmail from '../components/writeEmail'
 
 const EmailContent = () => { 
     return(
@@ -78,6 +79,7 @@ const EmailContent = () => {
           <section className="email-actions">
             <button>Reply</button>
             <button>Forward</button>
+            <WriteEmail/>
           </section>
         </article>
       </main>
