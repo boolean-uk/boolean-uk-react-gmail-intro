@@ -37,7 +37,7 @@
   
   .email-send-button {
     background-color: #007bff;
-    color: white;
+    color: rgb(177, 177, 177);
     border: none;
     padding: 8px 16px;
     cursor: pointer;
@@ -58,24 +58,3 @@
     background-color: #ccc;
     border-radius: 50%;
   }
-  
-  .icon-format {
-    /* Specific styling for each icon */
-  }
-  
-  .icon-attachment {
-    /* Specific styling for each icon */
-  }
-  
-  .icon-link {
-    /* Specific styling for each icon */
-  }
-  
-  .icon-emoji {
-    /* Specific styling for each icon */
-  }
-  
-  .icon-more {
-    /* Specific styling for each icon */
-  }
-  
