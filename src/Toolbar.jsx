@@ -1,7 +1,6 @@
 import backArrow from './assets/icons/back-arrow.png';
 import downloadButton from './assets/icons/download-button.png';
 import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
-import Leftmenu from './Leftmenu';
 import './styles/toolbar.css';
 
 
@@ -25,7 +24,6 @@ return (
   <button>&lt;</button>
   <button>&gt;</button>
 </div>
-<Leftmenu></Leftmenu>
 </nav>
 )
 }

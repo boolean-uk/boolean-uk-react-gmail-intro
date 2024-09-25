@@ -1,9 +1,7 @@
 import './styles/leftmenu.css';
-import Toolbar from './Toolbar';
 const Leftmenu = () => {
   return (
 <nav className="left-menu">
-<Toolbar/>
         <ul className="inbox-list">
           <li className="item active">
             <span className="label">Inbox</span>

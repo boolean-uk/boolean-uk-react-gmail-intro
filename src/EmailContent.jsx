@@ -4,12 +4,10 @@ import backArrow from './assets/icons/back-arrow.png';
 import rateStarButton from './assets/icons/rate-star-button.png';
 import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
 import WriteEmail from './WriteEmail';
-import Toolbar from './Toolbar';
 const EmailContent = ()=> {
   return (
     
 <article className="email-content">
-<Toolbar/>
           <div className="title">
             <h1>Welcome to Flaticon</h1>
           </div>
