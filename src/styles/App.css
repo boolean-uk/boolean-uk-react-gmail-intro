@@ -8,7 +8,7 @@
     180px 1fr;
 }
 
-.app > .header {
+/* .app > .header {
   grid-area: header;
 
   display: grid;
@@ -192,4 +192,4 @@
   background-color: transparent;
 
   font-weight: bold;
-}
+} */
