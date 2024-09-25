@@ -118,3 +118,46 @@
 
   font-weight: bold;
 }
+
+.email-reply {
+  justify-self: center;
+  margin-right: 100px;
+  margin-bottom: 50px;
+
+  border: 1px solid #252525;
+  border-radius: 8px;
+  
+  padding: 0.5rem;
+}
+
+.email-reply--header {
+  padding: 0.5rem 0.5rem;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 1rem;
+
+  margin-bottom: 0.5rem;
+}
+
+.email-reply .sender-info h2 {
+  margin-right: 1rem;
+
+  display: inline-block;
+
+  font-size: 0.925rem;
+}
+
+.email-reply button {
+  margin-top: 5rem;
+
+  cursor: pointer;
+
+  background-color: #0077B6;
+  color: white;
+
+  border-radius: 8px;
+
+  height: 35px;
+  width: 75px;
+}

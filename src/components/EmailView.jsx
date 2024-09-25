@@ -87,9 +87,18 @@ function Content() {
   )
 }
 
-function Create() {
+function Reply() {
   return (
-    <div className='create-email'>
+    <div className='email-reply'>
+      <header className="email-reply--header">
+          <img className="icon" src={backArrow} alt="reply button" height={20} width={20}/>
+        <div className="sender-info">
+          <h2>Freepik Company</h2>
+          <em>&#40;no-reply@freepik.com&#41;</em>
+        </div>
+      </header>
+      <p> Hi,</p>
+      <button>Send</button>
     </div>
   )
 }
@@ -99,7 +108,7 @@ function EmailView() {
         <main className="email-view">
         <Toolbar/>
         <Content/>
-        <Create/>
+        <Reply/>
       </main>
     )
 }
