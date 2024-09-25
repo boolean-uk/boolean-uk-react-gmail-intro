@@ -1,0 +1,10 @@
+ul.horizontal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  ul.horizontal-list li {
+    margin-right: 10px;
+  }
