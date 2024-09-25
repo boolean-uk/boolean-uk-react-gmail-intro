@@ -1,0 +1,12 @@
+.app > .header > .left-menu {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .app > .header > .left-menu .menu-icon {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+  }
