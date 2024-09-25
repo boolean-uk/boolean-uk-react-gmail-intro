@@ -3,6 +3,7 @@ import Header from './components/Header'
 import LeftMenu from './components/LeftMenu'
 import EmailToolbar from './components/EmailToolbar'
 import EmailContent from './components/EmailContent'
+import EmailReply from './components/EmailReply'
 
 // Email View
 function EmailView() {
@@ -23,6 +24,7 @@ function App() {
       <Header />
       <LeftMenu />
       <EmailView />
+      <EmailReply />
     </div>
   )
 }
