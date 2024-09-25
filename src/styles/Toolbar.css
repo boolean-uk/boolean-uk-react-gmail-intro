@@ -1,0 +1,39 @@
+.toolbar .icon {
+    width: 20px;
+    height: 20px;
+}
+
+.toolbar > * {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.button {
+    padding: 0.25rem 0.5rem 0.4rem;
+    
+    border-radius: 0.5rem;
+    border: 1px solid #a1a1a1;
+    background-color: transparent;
+    
+    font-weight: bold;
+}
+
+.toolbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    
+    border-bottom: 1px solid #f3f2f2;
+    padding: 0.8rem 1.8rem;
+}
+
+
+.toolbar > ul {
+  list-style-type: none;
+}
+
+
+
+
