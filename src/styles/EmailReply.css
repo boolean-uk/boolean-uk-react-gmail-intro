@@ -1,0 +1,124 @@
+.reply-main {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 300px;
+    margin-left: 10vw; 
+}
+
+.reply-avatar {
+    flex: 0 0 5%;
+    padding-top: 1%;
+}
+
+.reply-avatar-icon {
+    width: 50%;
+    height: 15%;
+    margin-left: 30%;
+}
+
+.reply-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 1.5%;
+}
+
+.reply-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.reply-dots {
+    flex: 0 0 5%;
+    display: flex;
+    width: 30px;
+    height: 10px;
+    background-color: rgb(165, 165, 165);
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.reply-dots-horizontal {
+    width: 20px;
+    height: 20px;
+    padding-bottom: 5px;
+}
+
+.reply-header {
+    display: flex;
+}
+
+.reply-header-left {
+    display: flex;
+    flex: 1;
+}
+.reply-header-right {
+    flex: 0 0 2%;
+}
+.reply-message {
+    flex: 1;
+}
+.reply-message-content {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    resize: none;
+}
+
+.reply-botter {
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.reply-botter-send {
+    flex: 0 0 10%;
+    display: flex;
+}
+
+.reply-botter-icons {
+    flex: 1;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.reply-botter-right {
+    flex: 0 0 4%;
+    display: flex;
+    padding-top: 10px;
+}
+
+.reply-botter-send-button {
+    flex: 3;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: large;
+    border: none;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.reply-botter-down-button {
+    flex: 1;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: small;
+    border:none;
+    border-left: 1px solid rgb(37, 37, 37);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.reply-botter-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
