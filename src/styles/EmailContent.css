@@ -1,0 +1,88 @@
+.email-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 20px;
+  }
+  
+  .email-content .title h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .email-content--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+  }
+  
+  .email-info {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .sender-info h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .user-info p {
+    margin: 0;
+    color: #777;
+  }
+  
+  .date-info {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .email-action-icons ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .email-action-icons ul li {
+    margin-right: 10px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .email-body {
+    margin-top: 20px;
+  }
+  
+  .email-body img {
+    max-width: 100%;
+  }
+  
+  .email-actions {
+    margin-top: 20px;
+  }
+  
+  .email-actions button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .email-actions button:hover {
+    background-color: #357ae8;
+  }
+  
