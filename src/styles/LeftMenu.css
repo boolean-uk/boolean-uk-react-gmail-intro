@@ -1,0 +1,45 @@
+.left-menu {
+    width: 250px;
+    background-color: #ffffff;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .inbox-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .item:hover, .item.active {
+    background-color: #e8f0fe;
+  }
+  
+  .label {
+    font-size: 16px;
+  }
+  
+  .count {
+    background-color: #d93025;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  
+  .toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle label {
+    margin-right: 10px;
+  }
+  

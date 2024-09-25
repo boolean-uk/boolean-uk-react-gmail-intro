@@ -1,0 +1,39 @@
+/* Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f3f4;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .left-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+  }
+  
+  img {
+    height: 40px;
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
