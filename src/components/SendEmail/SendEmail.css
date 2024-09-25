@@ -1,14 +1,17 @@
 .send-email-container {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .profile-picture {
-  position: absolute;
-  top: 0px;
-  left: 10px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: auto;
+  margin-top: 40px;
 }
 
 .send-email {
@@ -16,7 +19,7 @@
     border: 1px solid #ccc;
     padding: 10px 20px;
     border-radius: 5px;
-    margin: 50px;
+    margin: 30px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
