@@ -17,7 +17,9 @@ const Leftmenu = () => {
             <input id="hide-read" type="checkbox" checked={false} />
           </li>
         </ul>
+        
       </nav>
-  )
+)
+
 }
 export default Leftmenu

@@ -1,14 +1,14 @@
 import './styles/App.css';
 import Header from './Header'
-import Toolbar from './Toolbar'
 import EmailContent from './EmailContent'
 import Leftmenu from './Leftmenu';
+import EmailToolbar from './EmailToolbar';
 function App() {
   return (
     <div className="app">
       <Header/>
       <Leftmenu/>
-      <Toolbar/>
+      <EmailToolbar/>
       <EmailContent/>
     </div>
   )

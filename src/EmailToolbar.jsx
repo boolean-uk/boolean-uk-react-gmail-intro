@@ -4,7 +4,7 @@ import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
 import './styles/toolbar.css';
 
 
-const Toolbar = () => {
+const EmailToolbar = () => {
 return (
 <nav className="email-toolbar">
 <ul>
@@ -30,4 +30,4 @@ return (
 
 
 
-export default Toolbar
+export default EmailToolbar
