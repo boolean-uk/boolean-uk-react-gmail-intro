@@ -1,5 +1,5 @@
 import '../stylesheets/EmailContent.css'
-
+import ComposeEmail from './ComposeEmail.jsx'
 import backArrow from '../assets/icons/back-arrow.png'
 import rateStarButton from '../assets/icons/rate-star-button.png'
 import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png'
@@ -60,6 +60,8 @@ function EmailContent() {
           <button>Reply</button>
           <button>Forward</button>
         </section>
+        <ComposeEmail />
+
       </article>
     );
 }
