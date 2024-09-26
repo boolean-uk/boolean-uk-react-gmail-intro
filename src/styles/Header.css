@@ -1,0 +1,32 @@
+.app > .header { /* targets header inside app */
+    display: grid; 
+    border-bottom: solid 1px #00000030; /* light gray bottom border with 1px thickness */
+    grid-area: header;
+    grid-template-columns: 180px 1fr; /* creates 2 column. First is fixed at 180px and the other takes up the reast of the space */
+}
+
+.app > .header > .left-menu { /* targets an element with the class left-menu inside the header */
+    justify-content: left; /* alligns utems to the left of the menu */
+    align-items: center; /* vertically centers the items in the left menu */
+    grid-auto-flow: column; /*  places items in column automaticly, flowing from left to right */
+    display: grid; 
+}
+
+.app > .header > .left-menu .menu-icon { /* targets an icon */
+    height: 30px;
+    width: 30px;
+    margin: 15; /* adds 15px around icon*/
+}
+
+.app > .header > .search { /* targets a search bar area inside the header */
+    display: grid;
+    padding: 7px; /* Adds 7px of padding inside the search area */
+}
+
+.app > .header > .search .search-bar {
+    font-size: 1rem; /* fixes text size inside search bar */
+    padding: 0 15px; /* horizontal padding, 0 on top/bot and 15 on left/right */
+    border: none;
+    border-radius: 4px;
+    background-color: #fdfdfdea;
+}

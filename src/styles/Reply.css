@@ -1,0 +1,158 @@
+.replyMain {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 300px;
+    margin-left: -3vw; 
+}
+
+.replyAvatar {
+    flex: 0 0 5%;
+    padding-top: 1%;
+}
+
+.avatarIcon {
+    width: 100%;
+    height: 15%;
+    margin-left: -10%;
+}
+
+.replyHeader {
+    display: flex;
+}
+
+
+.replyHeaderLeft {
+    display: flex;
+    flex: 1;
+}
+
+.replyIcon {
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+    
+}
+
+.trash {
+    width: 50px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.newWindow {
+    width: 25px;
+    height: 30px;
+}
+
+.replyHeaderEmail {
+    margin-top: 8px;
+}
+
+
+.replyHeaderRight {
+    flex: 0 0 2%;
+}
+
+
+.replyBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 1.5%;
+}
+
+
+
+.replyMessage {
+    flex: 1;
+}
+
+.replyWritingArea {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    resize: none;
+}
+
+.replyDots {
+    flex: 0 0 5%;
+    display: flex;
+    width: 30px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.replyDotsLeft {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 5px;
+    
+    margin-top: 10px;
+}
+
+.replyBottomLine {
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    height: 40px;
+    
+}
+
+.replySend {
+    flex: 0 0 10%;
+    display: flex;
+}
+
+.replySendButton{
+    flex: 3;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: large;
+    border: none;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.replyDownArrow {
+    flex: 1;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: small;
+    border:none;
+    border-left: 1px solid rgb(37, 37, 37);
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.replyBottomRow {
+    flex: 1;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.replyRightBottomCorner {
+    flex: 0 0 4%;
+    display: flex;
+    padding-top: 10px;
+}
+
+
+.replyIconRow {
+    width: 230px;
+    height: 25px;
+    margin-right: 15px;
+    margin-top: 12px;
+}
