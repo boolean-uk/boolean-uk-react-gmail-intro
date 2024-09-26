@@ -1,0 +1,38 @@
+.write-email {
+    width: 100%;
+    
+    display: grid;
+    padding: 6px;
+
+    border-width: thin;
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0.966);
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+.send-button{
+    width: 5%;
+    
+}
+
+.write-email--header{
+    padding: 0.5rem 1rem;
+  
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 1rem;
+
+    border-width: thin;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.write-email--header .avatar {
+    width: 46px;
+    height: 46px;
+  
+    border-radius: 100%;
+    background-color: #eee;
+  }
