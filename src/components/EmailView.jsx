@@ -8,6 +8,7 @@ import backArrow from '../assets/icons/back-arrow.png'
 import downloadButton from '../assets/icons/download-button.png'
 import rateStarButton from '../assets/icons/rate-star-button.png'
 import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png'
+import writeEmail from '../../images/write-email-component.png'
 
 function EmailView(){
     return (
@@ -82,9 +83,15 @@ function EmailView(){
             <button>Reply</button>
             <button>Forward</button>
           </section>
+          <div>
+          <img src={writeEmail} alt="Flaticon welcome message" />
+          </div>
         </article>
+
       </main>
     )
 }
+
+// extension here maybe
 
 export default EmailView
