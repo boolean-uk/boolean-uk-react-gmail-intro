@@ -1,21 +1,16 @@
-.left-menu {
-    grid-area: left-menu;
-    padding: 10px;
-    padding-left: 0;
-  }
 
-.left-menu {
+.app > .left-menu {
     grid-area: left-menu;
     padding: 10px;
     padding-left: 0;
   }
   
-.left-menu .inbox-list {
+  .app > .left-menu .inbox-list {
     display: grid;
     grid-gap: 10px;
   }
   
-.left-menu .inbox-list .item {
+  .app > .left-menu .inbox-list .item {
     padding: 5px 10px;
     display: grid;
     grid-auto-flow: column;
@@ -26,10 +21,10 @@
     border-bottom-right-radius: 20px;
   }
   
-.left-menu .inbox-list .item.active {
+  .app > .left-menu .inbox-list .item.active {
     background-color: #ff000050;
   }
   
-.left-menu .inbox-list .item.toggle {
+  .app > .left-menu .inbox-list .item.toggle {
     background-color: transparent;
   }
