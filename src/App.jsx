@@ -1,4 +1,11 @@
 import './styles/App.css'
+import './styles/LeftMenu.css';
+import './styles/SearchBar.css';
+import './styles/Toolbar.css';
+import './styles/EmailContent.css';
+import './styles/Header.css';
+
+
 
 import InboxList from './components/InboxList'
 import SearchBar from './components/SearchBar'
