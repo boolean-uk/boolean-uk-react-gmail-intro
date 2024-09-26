@@ -1,8 +1,9 @@
-import "../styles/stylesheets/EmailContent.css"
+import "../styles/stylesheets/EmailContent.css";
 import rateStarButton from "../assets/icons/rate-star-button.png";
 import flaticonWelcomeImage from "../assets/images/flaticon-welcome-image.png";
 import backArrow from "../assets/icons/back-arrow.png";
 import rubbishButton from "../assets/icons/rubbish-bin-delete-button.png";
+import EmailReply from "./Email-reply";
 
 function EmailContent() {
   return (
@@ -49,6 +50,7 @@ function EmailContent() {
         <button>Reply</button>
         <button>Forward</button>
       </section>
+      <EmailReply/>
     </article>
   );
 }
