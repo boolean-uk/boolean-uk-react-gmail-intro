@@ -1,5 +1,6 @@
 import Toolbar from './Toolbar'
 import Content from './Content'
+import EmailReply from './EmailReply';
 
 export default function EmailView() {
   return (
@@ -7,6 +8,7 @@ export default function EmailView() {
       <main className="email-view">
         <Toolbar />
         <Content />
+        <EmailReply />
       </main>
     </>
   );

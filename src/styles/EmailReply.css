@@ -1,0 +1,60 @@
+/* NOTE: Not the best CSS, time limit */
+
+.avatar {
+    width: 56px;
+    height: 56px;
+  
+    border-radius: 100%;
+    background-color: #eee;
+    float: left;
+  }
+
+.email-reply-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0.5em;
+
+    width: 600px;
+    height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+    margin-left: 70px;
+}
+
+.reply-top-div {
+    padding: 5px;
+    display: flex;
+}
+
+.reply-top-div img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    opacity: 40%;
+}
+
+.dot-div {
+    background-color: lightgray;
+    text-align: center;
+
+    font-size: 10px;
+    font-weight: bold;
+    width: 40px;
+    height: 15px;
+
+    padding: 0;
+    margin: 0;
+
+    border-radius: 5px;
+}
+
+.send-button {
+    padding: 0.4em 0.8em;
+    margin-top: 1em;
+    background-color: rgb(51, 116, 246);
+    color: white;
+    border: 1px solid rgb(53, 53, 239);
+    border-radius: 5px;
+}
