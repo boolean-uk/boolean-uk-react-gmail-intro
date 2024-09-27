@@ -1,3 +1,5 @@
+import '/src/styles/EmailContent.css'
+
 import backArrow from '/src/assets/icons/back-arrow.png'
 import rubbishButton from '/src/assets/icons/rubbish-bin-delete-button.png'
 import rateStarButton from '/src/assets/icons/rate-star-button.png'

@@ -1,3 +1,5 @@
+import '/src/styles/leftMenu.css'
+
 function LeftMenu(){
     return(
       <>
