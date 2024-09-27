@@ -1,4 +1,4 @@
-.left-menu {
+.app > .left-menu {
     grid-area: left-menu;
     padding: 10px;
     padding-left: 0;
