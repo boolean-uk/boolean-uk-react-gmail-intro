@@ -3,6 +3,7 @@ import EmailHeader from "./email/EmailHeader"
 import EmailBody from "./email/EmailBody"
 import EmailActions from "./email/EmailActions"
 import '../styles/Email.css'
+import EmailReply from "./email/EmailReply"
 
 function EmailView() {
     return (
@@ -15,6 +16,7 @@ function EmailView() {
         <EmailHeader />
         <EmailBody />
         <EmailActions />
+        <EmailReply />
         </article>
       </main>
     )
