@@ -3,13 +3,13 @@ import Main from './main'
 import NavLeftMenu from './navLeftMenu'
 
 function App() {
-  return (<>
-  <div className="app">
-  <Header></Header>
-  <NavLeftMenu></NavLeftMenu>
-  <Main></Main>
-  </div>
-  </>)
+  return (
+    <div className="app">
+      <Header/>
+      <NavLeftMenu/>
+      <Main/>
+    </div>
+  )
 }
 
 export default App;

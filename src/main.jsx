@@ -1,15 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-
 import './styles/Email.css'
 import './styles/index.css'
-
 import flaticonWelcomeImage from './assets/images/flaticon-welcome-image.png'
 import rateStarButton from './assets/icons/rate-star-button.png'
 import backArrow from './assets/icons/back-arrow.png'
 import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
 import downloadButton from './assets/icons/download-button.png'
+import writeEmailComponent from './assets/images/write-email-component.png'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -20,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 function Main () {
   return (
     <main className="email-view">
+
         <nav className="email-toolbar">
           <ul>
             <li>
@@ -39,6 +39,7 @@ function Main () {
             <button>&gt;</button>
           </div>
         </nav>
+
         <article className="email-content">
           <div className="title">
             <h1>Welcome to Flaticon</h1>
@@ -56,9 +57,11 @@ function Main () {
                 </p>
               </div>
             </div>
+
             <div className="date-info">
               <p>17 March 2021, 09:33</p>
             </div>
+            
             <div className="email-action-icons">
               <ul>
                 <li>
@@ -89,6 +92,12 @@ function Main () {
           <section className="email-actions">
             <button>Reply</button>
             <button>Forward</button>
+            <div className="content">
+              <img className="reply-email-image" 
+                src={writeEmailComponent} 
+                alt="reply email component"
+              />
+            </div>
           </section>
         </article>
     </main>

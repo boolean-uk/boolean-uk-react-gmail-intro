@@ -72,3 +72,7 @@
 .app > .left-menu .inbox-list .item.toggle {
   background-color: transparent;
 }
+
+.reply-email-image {
+  width: 100%;
+}
