@@ -1,7 +1,8 @@
 
 
-import LeftMenu from './LeftMenu.jsx'
-import SearchBar from './SearchBar.jsx'
+import LeftMenu from './subHeaderComponents/LeftMenu.jsx'
+import SearchBar from './subHeaderComponents/SearchBAr.jsx'
+import './header.css'
 
 
 function header() {

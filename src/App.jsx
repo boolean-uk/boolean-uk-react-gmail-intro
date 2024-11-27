@@ -1,7 +1,7 @@
 import './styles/App.css'
-import Header from './Header.jsx'
-import Nav from './Nav.jsx'
-import MainContent from './MainContent.jsx'
+import Header from './components/header/Header.jsx'
+import Nav from './components/nav/Nav.jsx'
+import MainContent from './components/main/MainContent.jsx'
 
 
 

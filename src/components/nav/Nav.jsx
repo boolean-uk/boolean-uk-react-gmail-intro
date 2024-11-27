@@ -1,4 +1,5 @@
-import InboxListUl from "./InboxListUl.jsx"
+import InboxListUl from "./subNavComponents/InboxListUl"
+import './nav.css'
 
 function nav() {
     return (

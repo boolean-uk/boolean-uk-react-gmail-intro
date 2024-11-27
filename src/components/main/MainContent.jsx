@@ -1,5 +1,6 @@
-import ContentNav from "./ContentNav.jsx"
-import Article from './Article.jsx'
+import ContentNav from "./subMainComponents/Article.jsx"
+import Article from './subMainComponents/ContentNav.jsx'
+import './main.css'
 
 function main() {
     return (
