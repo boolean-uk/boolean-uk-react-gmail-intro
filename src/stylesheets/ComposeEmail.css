@@ -1,0 +1,62 @@
+.compose-email {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .compose-header {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .compose-header input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .compose-body {
+    margin-bottom: 0.5rem;
+  }
+  
+  .compose-body textarea {
+    width: 100%;
+    height: 150px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    resize: vertical;
+  }
+  
+  .compose-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .compose-actions button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #a1a1a1;
+    background-color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .send-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  
+  .discard-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
