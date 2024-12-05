@@ -1,0 +1,82 @@
+.email-actions {
+  padding: 1rem 0.5rem;
+}
+
+.email-actions>button {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+
+  border-radius: 0.5rem;
+  border: 1px solid #a1a1a1;
+  background-color: transparent;
+
+  font-weight: bold;
+}
+
+.sendButton {
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+
+  color: white;
+  background-color: rgb(62, 125, 250);
+
+  width: 100px;
+  height: 30px;
+
+  border-radius: 7px;
+}
+
+.buttonArray {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 40px);
+
+  position: relative;
+  bottom: 40px;
+  left: 140px;
+
+  list-style: none;
+}
+
+.replySender {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  margin-top: 5px;
+
+  list-style: none;
+}
+
+.replySender li p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.rubbishOptions {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+
+  list-style: none;
+}
+
+.profilePic {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  position: absolute;
+  top: 5px;
+  left: -50px;
+
+  list-style: none;
+}
+
+.profileCircle {
+ width: 50px;
+}
