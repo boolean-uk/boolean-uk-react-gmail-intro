@@ -1,0 +1,103 @@
+.write-email {
+  width: 650px;
+  height: 300px;
+  margin-left: 200px;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 1rem;
+}
+
+.write-email > .avatar {
+  width: 56px;
+  height: 56px;
+  margin-right: 10px;
+
+  border-radius: 100%;
+  background-color: #eee;
+}
+
+.box {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #a1a1a1;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  color: #615e5e;
+}
+
+.sender {
+  font-size: 0.825rem;
+  color: #615e5e;
+  margin-right: 365px;
+}
+
+.email-input {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 650px;
+  height: 200px;
+  font-size: 20px;
+  resize: none;
+
+  border: transparent;
+}
+
+.footer {
+  display: flex;
+}
+
+.buttons button {
+  font-size: 1rem;
+  color: white;
+
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 10px 20px;
+
+  background: blue;
+  border: solid 2px #ffffffdd;
+  border-radius: 5px;
+
+  transition: 200ms;
+}
+
+.buttons button:focus {
+  outline: none;
+  border-width: 2px;
+  border-color: whitesmoke;
+}
+
+.buttons button:hover {
+  background-color: white;
+  color: blue;
+  border: solid 2px lightblue;
+  border-radius: 5px;
+}
+
+.buttons button:active {
+  background-color: white;
+  color: blue;
+}
+
+.drop-down-symbol {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border: white;
+  color: #615e5e;
+}
+
+.all-buttons {
+  height: 50px;
+  margin-right: 290px;
+}
